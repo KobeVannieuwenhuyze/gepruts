@@ -16,7 +16,7 @@ body>nav>a>img {
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, rgb(9, 9, 103), rgb(103, 2, 171));
+    background: linear-gradient(135deg, rgb(7, 7, 73), rgb(40, 50, 234));
     padding: 10px;
     margin: -10px;
     padding-top: 30px;
@@ -24,22 +24,31 @@ body>nav>a>img {
 }
 
 footer {
+    margin-top: 20px;
+    margin-bottom: 100px;
     text-align: center;
+}
+
+h4 {
+    margin: 0px;
+    text-align: center;
+    font-size: 22px;
 }
 
 figure img {
     width: 76px;
-    height: auto;
+    height: 76px;
     border-radius: 10px;
 }
 
 fieldset {
+    margin-bottom: 10px;
     color: white;
     border-color: white;
     text-align: center;
 }
 
-figcaption {
+fieldset figcaption {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +61,22 @@ figcaption {
     position: absolute;
 }
 
-span {
+div > figcaption {
+    position: fixed;
+    bottom: 4%;
+    left: 3%;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    background-color: orangered;
+    height: 60px;
+    width: 40px;
+    font-size: 25px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+fieldset span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,17 +91,17 @@ span {
     font-size: 25px;
 }
 
-#betalen {
+div > span {
     position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: orangered;
-    color: white;
-    padding: 15px;
-    margin: 0 30px 30px;
+    bottom: 4%;
+    right: 52%;
     text-align: center;
-    font-size: 20px;
-    border-radius: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 60px;
+    background-color: rgb(205, 9, 9);
+    color: white;
+    height: 60px;
+    width: 40px;
+    font-size: 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }

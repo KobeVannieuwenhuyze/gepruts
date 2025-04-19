@@ -2,39 +2,69 @@ body {
     color: white;
 }
 
+h2 {
+    color: orangered;
+    text-align: center;
+}
+
+p {
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    margin: 0 30px 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
 body>img {
     width: 106%;
     height: auto;
     margin: -10px -10px 6px;
 }
 
-.container {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, rgb(9, 9, 103), rgb(103, 2, 171));
-    padding: 10px;
-    margin: -10px;
-    padding-top: 30px;
-    border: none;
+div>img {
+    display: inline-block;
+    width: 100px;
 }
 
-a {
-    display: block;
+div {
     text-align: center;
-    width: 75%;
-    background: white;
-    margin: 20px auto 20px;
-    padding: 5px;
-    border-radius: 10px;
+}
+
+#berekenen {
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    text-align: center;
+    line-height: 60px;
+    background-color: orangered;
+    color: white;
+    height: 60px;
+    width: 45%;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#beker {
+    position: fixed;
+    bottom: 4%;
+    left: 3%;
+    text-align: center;
+    line-height: 56px;
+    background-color: white;
     color: orangered;
-    text-decoration: none;
-}
-
-a:checked {
-    background: rgb(186, 183, 183);
-}
-
-
-footer {
-    text-align: center;
+    border: 2px solid orangered;
+    box-sizing: border-box;
+    height: 60px;
+    width: 45%;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
